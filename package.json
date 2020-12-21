@@ -1,0 +1,24 @@
+{
+  "name": "take-home",
+  "version": "1.0.0",
+  "description": "Take Home Assignment Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe firefox testCases/ --fixture-meta testSuite=demo --reporter html:results/testResults.html",
+    "test:chrome": "testcafe chrome testCases/ --fixture-meta testSuite=demo --reporter html:results/testResults.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raylon-silberman/take-home.git"
+  },
+  "author": "Raylon Silberman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raylon-silberman/take-home/issues"
+  },
+  "homepage": "https://github.com/raylon-silberman/take-home#readme",
+  "devDependencies": {
+    "testcafe": "^1.10.0",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
